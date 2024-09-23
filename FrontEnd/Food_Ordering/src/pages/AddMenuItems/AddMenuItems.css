@@ -1,0 +1,86 @@
+/* General form styling */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="file"] {
+    padding: 3px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+button {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: tomato;
+    color: white;
+    border:1px solid tomato;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: tomato;
+}
+
+/* Styling for dropdowns */
+select {
+    appearance: none;
+    background-color: white;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNzU3NTc1IiBoZWlnaHQ9IjEwIiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgd2lkdGg9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNTAgNjIuNTczbDM1Ljk4Ny0zNS45ODdhMTAuMDAyIDEwLjAwMiAwIDEgMCAxNC4xNDEgMTQuMTQxbC00My41MDAgNDMuNS0uMDAyLjAwMmExMCAxMCAwIDAgMS0xNC4xNDEtLjAwMmwtNDMuNTI4LTQzLjUyN2ExMC4wMDEgMTAuMDAxIDAgMSAwIDE0LjE0MS0xNC4xNDFMNTAgNjIuNTczeiIvPjwvc3ZnPg==');
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-size: 12px;
+}
+
+select:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+select option {
+    padding: 8px;
+}
+
+/* File input styling */
+input[type="file"] {
+    padding: 5px;
+    font-size: 14px;
+}
+
